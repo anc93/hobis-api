@@ -1,7 +1,7 @@
-package com.hobis.api.api;
+package com.hobis.api.old.api;
 
-import com.hobis.api.model.Person;
-import com.hobis.api.service.PersonService;
+import com.hobis.api.old.model.Person;
+import com.hobis.api.old.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

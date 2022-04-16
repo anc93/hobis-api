@@ -1,7 +1,7 @@
-package com.hobis.api.service;
+package com.hobis.api.old.service;
 
-import com.hobis.api.dao.PersonDao;
-import com.hobis.api.model.Person;
+import com.hobis.api.old.dao.PersonDao;
+import com.hobis.api.old.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

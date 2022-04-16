@@ -1,4 +1,4 @@
-package com.hobis.api.model;
+package com.hobis.api.old.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.UUID;

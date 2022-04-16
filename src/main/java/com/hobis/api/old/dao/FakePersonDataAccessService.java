@@ -1,6 +1,6 @@
-package com.hobis.api.dao;
+package com.hobis.api.old.dao;
 
-import com.hobis.api.model.Person;
+import com.hobis.api.old.model.Person;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

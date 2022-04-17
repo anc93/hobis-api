@@ -1,5 +1,7 @@
 package com.hobis.api.entities;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
+@JsonPropertyOrder({"id", "username", "totalScore"})
 public class Users {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

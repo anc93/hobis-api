@@ -6,6 +6,7 @@ import com.hobis.api.repositories.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -13,7 +14,6 @@ import java.util.Optional;
 @Service
 @Slf4j
 public class UserService {
-
     @Autowired
     private UserRepository userRepository;
 
@@ -39,7 +39,7 @@ public class UserService {
     public int updateUser(Integer id, Users updateUserData) {
         try {
             Optional<Users> userToUpdate = getUserById(id);
-            if (userToUpdate.isEmpty()){
+            if (userToUpdate.isEmpty()) {
                 return 0;
             }
             UsersHydrator usersHydrator = new UsersHydrator();
